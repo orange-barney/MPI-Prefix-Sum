@@ -1,5 +1,6 @@
 # MPI-Prefix-Sum
 a parallel implementation for calculating the prefix sum of an array using MPI.
+the code is commented and easy to interpret
 
 files:
 code.c contains the code
