@@ -22,16 +22,16 @@ int main(){
 
   FILE *fid1 = fopen ("out.txt" ,"r");
 
-  int x;
-  int inid = 1;
+  int x; // input stored in x
+  int inid = 1; // to indicate if the compared output is the same.
   for (i = 0; i < n; i++){
     fscanf (fid1, "%d", &x);
-    if (x != a[i]){
+    if (x != a[i]){ // if one value is different between the two then inid will become 0 
       inid = 0;
     }
   }
-
-  printf("the size is %d and result is %d\n", n, inid);
+  // if inid is 1 then they are the same // if inid is 0 then the results aren't the same
+  printf("the size is %d and result is %d\n", n, inid); 
 
   return 0;
 }
