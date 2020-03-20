@@ -2,9 +2,9 @@
 a parallel implementation for calculating the prefix sum of an array using MPI.
 
 files:
-code.c contains the code.
-test.c (to test the the parallel implementaion result)
-myInput.txt has a randomly generated array of size 2^20 with values between 1 and 5 inclusive.
+code.c contains the code
+test.c to test the the parallel implementaion result
+myInput.txt has a randomly generated array of size 2^20 with values between 1 and 5 inclusive
 
 compile: mpicc code code.c
 run: qsubmpi code numOfCores inputFile.txt
